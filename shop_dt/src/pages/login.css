@@ -1,0 +1,37 @@
+.card {
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.errmsg {
+  color: red;
+}
+
+.app-check {
+  margin-right: 10px;
+}
+
+.btn-submit {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background-color: #138496;
+}
