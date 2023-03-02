@@ -117,8 +117,6 @@ const Constructor1 = () => {
       // }
   return (
     <><div>
-
-       
       </div><div className="container mt-4 mb-3">
               <div className="card border-primary bt-5">
                   <div className="card-header">
@@ -127,9 +125,7 @@ const Constructor1 = () => {
                               <h3 className="card-title">Danh sách Người Dùng <small className="text-muted"></small></h3>
                           </div>
                           <div className="col-auto">
-                              {/* <button type="button" onClick={() => showEditModal(null, 0)} className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal"><i className="bi-plus-lg" /> Add</button> */}
                           </div>
-                          {/* onclick này là gọi hàmhàm */}
                       </div>
                   </div>
                   <div className="card-body">

@@ -75,25 +75,9 @@ const ManageFeedback = () => {
           })
         })
       }
-      // function getUsers() {
-      //   fetch("http://localhost:3000/login").then((result) => {
-      //     result.json().then((resp) => {
-      //       // console.warn(resp)
-      //       setUser(resp)
-      //       setName(resp[0].name)
-      //       setPhone(resp[0].phone)
-      //       setEmail(resp[0].email)
-      //       setCountry(resp[0].country)
-      //       setPassword(resp[0].password)
-
-      //       setUserId(resp[0].id)
-      //     })
-      //   })
-      // }
+ 
   return (
-    <><div>
-
-       
+    <><div>    
       </div><div className="container mt-4 mb-3">
               <div className="card border-primary bt-5">
                   <div className="card-header">
@@ -102,9 +86,7 @@ const ManageFeedback = () => {
                               <h3 className="card-title">Thông tin về Feeback của khách hàng<small className="text-muted"></small></h3>
                           </div>
                           <div className="col-auto">
-                              {/* <button type="button" onClick={() => showEditModal(null, 0)} className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal"><i className="bi-plus-lg" /> Add</button> */}
                           </div>
-                          {/* onclick này là gọi hàmhàm */}
                       </div>
                   </div>
                   <div className="card-body">
