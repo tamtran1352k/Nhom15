@@ -16,12 +16,12 @@ const Header = () => {
                     <Link to="/new" class="nav-item nav-link me-3">Tin Tức</Link>
                     <Link to="/login" class="nav-item nav-link me-3">Login</Link>
                     <Link to="/register" class="nav-item nav-link me-3">Register</Link>
-                    <Link to="/major" class="nav-item nav-link me-3">Trang quan tri san pham</Link>
-                    <Link to="/k" class="nav-item nav-link me-3">Trang quan tri Nguoi dung</Link>
+              
+                 
                     <Link to="/product" class="nav-item nav-link me-3">Trang san Pham</Link>
                     <Link to="/cart" class="nav-item nav-link me-3">Trang gio hang</Link>
                     <Link to="/feedback" class="nav-item nav-link me-3">Ý kiến của khách hàng</Link>
-                    <Link to="/mnFeedBack" class="nav-item nav-link me-3">Quản trị FeebBack</Link>
+             
 
                     
                     
@@ -34,6 +34,21 @@ const Header = () => {
                             <Link to="iphone"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Iphone</a></Link>
                             <Link to="samsung"  style={{ textDecoration: "none" }}><a class="dropdown-item" >SamSung</a></Link>
                             <Link to="oppo"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Oppo</a></Link>
+                           
+                          </ul>
+                        </li>
+                      </ul>
+
+
+                      <ul class="navbar-nav" >
+                        <li class="nav-item dropdown">
+                          <a className="nav-link dropdown-toggle me-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Trang Admin
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-light " aria-labelledby="navbarDarkDropdownMenuLink"  style={{ textDecoration: "none" }}  >
+                            <Link to="/k"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Quản lí Người Dùng</a></Link>
+                            <Link to="/mnFeedBack"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Quản Lí FeedBack</a></Link>
+                            <Link to="/major"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Quản Lí Sản Phẩm</a></Link>
                            
                           </ul>
                         </li>
