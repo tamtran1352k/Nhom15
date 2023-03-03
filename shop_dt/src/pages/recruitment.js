@@ -37,7 +37,7 @@ const Recruitment = () => {
     <div className="col-lg-4">
       <div className="card">
         <img
-          src={`${process.env.PUBLIC_URL}/img/img-tuyendung/nhanvienbanhang.jpg`} width={400} height={300}
+          src={`${process.env.PUBLIC_URL}/img/img-tuyendung/nhanvienbanhang.jpg`} width={400} height={360}
           alt="Hình ảnh"
           className="card-img-top"
         />
@@ -56,7 +56,7 @@ const Recruitment = () => {
     <div className="col-lg-4">
       <div className="card">
         <img
-          src={`${process.env.PUBLIC_URL}/img/img-tuyendung/ketoan.jpg`} width={400} height={300}
+          src={`${process.env.PUBLIC_URL}/img/img-tuyendung/ketoan.jpg`} width={400} height={360}
           alt="Hình ảnh"
           className="card-img-top"
         />

@@ -30,10 +30,10 @@ const Header = () => {
                           <a className="nav-link dropdown-toggle me-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sản Phẩm
                           </a>
-                          <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <Link to="iphone"><a class="dropdown-item" >Iphone</a></Link>
-                            <Link to="samsung"><a class="dropdown-item" >SamSung</a></Link>
-                            <Link to="oppo"><a class="dropdown-item" >Oppo</a></Link>
+                          <ul class="dropdown-menu dropdown-menu-light " aria-labelledby="navbarDarkDropdownMenuLink"  style={{ textDecoration: "none" }}  >
+                            <Link to="iphone"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Iphone</a></Link>
+                            <Link to="samsung"  style={{ textDecoration: "none" }}><a class="dropdown-item" >SamSung</a></Link>
+                            <Link to="oppo"  style={{ textDecoration: "none" }}><a class="dropdown-item" >Oppo</a></Link>
                            
                           </ul>
                         </li>
