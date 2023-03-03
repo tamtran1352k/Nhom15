@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tin tức - Thế giới điện thoại</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  crossorigin="anonymous">
+  <!-- our files -->
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/topnav.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/taikhoan.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/tintuc.css">
+  <!-- js -->
+  <script src="data/products.js"></script>
+  <script src="js/dungchung.js"></script>
+  <script>
+    window.onload = function () {
+      khoiTao();
+      // thêm tags (từ khóa) vào khung tìm kiếm
+      var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+      for (var t of tags) addTags(t, "index.html?search=" + t);
+    }
+  </script>
+</head>
+<body>
+  <script> addTopNav();</script>
+  <section style="min-height: 85vh">
+    <script> addHeader(); </script>
+    <div class="body-tintuc">
+      <div class="tintuc-info">
+        <a href="https://ictnews.vietnamnet.vn/nhung-danh-gia-dau-tien-ve-iphone-se-2022-406731.html" target="_blank">
+          <img src="img/tintuc/tintuc1.png" alt="">
+          <h2>Những đánh giá đầu tiên về iPhone SE 2022</h2>
+        </a><br/>
+        <h5>Doanh nghiệp &emsp;3 giờ</h5>
+      </div>
+      <div class="tintuc-info">
+        <a href="https://thanhnien.vn/kham-pha-cac-thanh-phan-ben-trong-iphone-14-pro-max-1851500363.htm" target="_blank">
+          <img src="img/tintuc/tintuc2.png" alt="">
+          <h2>Khám phá các thành phần bên trong iPhone 14 Pro Max</h2>
+        </a> <br/>
+        <h5>Thanh niên &emsp; 6 giờ</h5>
+      </div>
+      <div class="tintuc-info">
+        <a href="https://vov.vn/cong-nghe/doanh-so-iphone-xs-va-iphone-xr-tham-hai-apple-san-xuat-lai-iphone-x-843717.vov" target="_blank">
+          <img src="img/tintuc/tintuc3.png" alt="">
+          <h2>Doanh số iPhone XS và iPhone XR thảm hại, Apple sản xuất lại iPhone X</h2>
+        </a> <br/>
+        <h5>VOV &emsp; 6 giờ</h5>
+      </div>
+      <div class="tintuc-info">
+        <a href="https://www.thegioididong.com/tin-tuc/so-sanh-iphone-13-pro-max-va-iphone-13-pro-1377007" target="_blank">
+          <img src="img/tintuc/tintuc4.png" alt="">
+          <h2>So sánh iPhone 13 Pro và iPhone 13 Pro Max</h2>
+        </a> <br/>
+        <h5>Thế giới di động &emsp; 9 giờ</h5>
+      </div>
+      <div class="tintuc-info">
+        <a href="https://chammoc.com/nen-mua-dien-thoai-nao/" target="_blank">
+          <img src="img/tintuc/tintuc5.png" alt="">
+          <h2>Điện thoại tốt nhất không nhất thiết phải là điện thoại cao cấp nhất.</h2>
+        </a><br/>
+        <h5>Cham moc &emsp; 20 giờ</h5>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <script>addFooter();</script>
+  </div>
+</body>
+</html>
